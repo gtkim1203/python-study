@@ -46,10 +46,17 @@ print(tuple1)
 tuple2 = (4,5,6)
 print(tuple2)
 
-tuple3 = tuple1 + tuple2
+tuple3 = tuple1 + tuple2 # 결과값 합쳐서 나옴
 print(tuple3)
 
-tuple4 = (tuple1, tuple2)
+tuple4 = (tuple1, tuple2) # 따로따로 나옴
 print(tuple4)
 
+list10 = list(tuple1)
+print(list10)
+
+
 # 3.딕셔너리
+
+
+
